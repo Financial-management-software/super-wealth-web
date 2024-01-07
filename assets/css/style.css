@@ -1,9 +1,26 @@
 /* #dff9fb #95afc0  */
-#container {
+
+@font-face {
+  font-family: "isans";
+  src: url("./../fonts/iransans/IRANSansWeb.eot") format("eot"),
+    /* IE6–8 */ url("./../fonts/iransans/IRANSansWeb.woff2") format("woff2"),
+    /* Chrome36+, Opera24+*/ url("./../fonts/iransans/IRANSansWeb.woff")
+      format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  font-weight: bold;
+}
+
+*,
+::after,
+::before {
+  box-sizing: unset !important;
+  font-family: "isans";
   padding: 0;
   margin: 0;
   overflow: hidden;
-  box-sizing: border-box;
+}
+
+#container {
+  background-color: #f1f5fa;
 }
 
 .menu {
@@ -27,12 +44,12 @@
   width: 100%;
   height: 100%;
   padding: 20px;
-  color: #95afc0;
+  color: #3f5b78;
   transition: 300ms;
   border-radius: 8px;
 }
 
 .menu a:hover {
   background-color: #dff9fb;
-  color: #3f5b78;
+  color: #95afc0;
 }
