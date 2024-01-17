@@ -4,20 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>صفحه اصلی</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
     <div class="" id="container">
       <div class="row">
         <div class="col-md-2">
-          <div class="menu p-2">
-            <a href="./index.html">داشبورد</a>
-            <a href="#">ثبت دخل و خرج</a>
-            <a href="#">گزارشات</a>
-            <a href="#">یادداشت</a>
-            <a href="#">ماشین حساب</a>
-          </div>
+          <?php require_once "./menu.php" ?>
         </div>
         <div class="col-md-10 mt-1"></div>
       </div>
